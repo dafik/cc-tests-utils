@@ -4,6 +4,7 @@ namespace Dfi\TestUtils\Module;
 
 class Map
 {
+    private static $host;
     private static $configFile = 'module-map.json';
     private static $config;
     private static $map = [];
@@ -163,6 +164,10 @@ class Map
 
     private static function getHost()
     {
+        if (null !== self::$host) {
+            return self::$host;
+
+        }
         return TEST_HOST;
     }
 
@@ -172,6 +177,14 @@ class Map
     public static function setConfigFile($configFile)
     {
         self::$configFile = $configFile;
+    }
+
+    /**
+     * @param mixed $host
+     */
+    public static function setHost($host)
+    {
+        self::$host = $host;
     }
 
 
