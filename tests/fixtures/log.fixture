@@ -1,0 +1,29 @@
+---- Session started: Thu Oct 29 2015 12:16:44 GMT+0100 (CET) ----
+
+[2015-10-29 12:16:44]: ["debug", "WC inc l:1 ajax: /framework/menu"]
+[2015-10-29 12:16:44]: ["debug", "WC inc l:2 ajax: /framework/dialer"]
+[2015-10-29 12:16:44]: ["debug", "WC inc l:3 ajax: /framework/soft"]
+[2015-10-29 12:16:44]: ["debug", "WC inc l:4 ajax: /framework/incoming"]
+[2015-10-29 12:16:44]: ["debug", "WC inc l:5 ajax: /framework/debug"]
+[2015-10-29 12:16:45]: ["debug", "WC dec l:4 ajax: /framework/dialer"]
+[2015-10-29 12:16:45]: ["debug", "WC dec l:3 ajax: /framework/soft"]
+[2015-10-29 12:16:45]: ["debug", "WC dec l:2 ajax: /framework/menu"]
+[2015-10-29 12:16:45]: ["debug", "WC dec l:1 ajax: /framework/incoming"]
+[2015-10-29 12:16:45]: ["debug", "WC dec l:0 ajax: /framework/debug"]
+[2015-10-29 12:16:45]: ["debug", "framework ready"]
+[2015-10-29 12:17:43]: ["debug", "WC inc l:1 content"]
+[2015-10-29 12:17:43]: ["debug", "frm.content.get:/administrator/collected/list"]
+[2015-10-29 12:17:43]: ["debug", "WC inc l:2 ajax: /administrator/collected/list"]
+[2015-10-29 12:17:44]: ["debug", "frm.content.get - success"]
+[2015-10-29 12:17:44]: ["debug", "frm.content.put"]
+[2015-10-29 12:17:44]: ["debug", "frm.content.put - before html"]
+[2015-10-29 12:17:44]: ["debug", "frm.content.get - after html"]
+[2015-10-29 12:17:44]: ["debug", "WC inc l:3 dt init"]
+[2015-10-29 12:17:44]: ["debug", "WC inc l:4 ajax: /administrator/collected/data"]
+[2015-10-29 12:17:44]: ["debug", "frm.content.get - inserted"]
+[2015-10-29 12:17:44]: ["debug", "WC dec l:3 content"]
+[2015-10-29 12:17:44]: ["info", "new content url: /administrator/collected/list"]
+[2015-10-29 12:17:44]: ["debug", "WC dec l:2 ajax: /administrator/collected/list"]
+
+---- Log retrieved: Thu Oct 29 2015 12:17:47 GMT+0100 (CET) ----
+---- Session duration: 00:01:02 ----
